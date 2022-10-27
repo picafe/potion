@@ -20,12 +20,6 @@ Responses are cached for 10 seconds, so it'll take up to 10 seconds for changes 
 
 *`<notion-page-id>` refers to the 32 character alphanumeric string in the URL of a Notion doc (but not a query parameter, so not the string after `?v=`).*
 
-### /table
-
-Lists all entries in a full-page Notion table, along with additional details about each page.
-
-The only query parameter is `?id=<notion-page-id>`.
-
 ### /table-description
 
 Generates HTML for the description of a table.
