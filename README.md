@@ -46,11 +46,9 @@ You'll notice that the code block HTML that Potion returns is given CSS classes 
   ```html
   <link rel="stylesheet" href="https://unpkg.com/prism-themes@1.4.0/themes/prism-ghcolors.css" />
   ```
+### Adding a stylesheet to make it look more like notion 
 
-### Language support
-
-Potion supports syntax highlighting for most popular languages, and you can open an issue if you'd like to see a language supported that isn't currently.
-
+I added a style.css stylesheet you can link to make the imported html look more like notion. It's kinda scuffed so feel free to modify it.
 
 ## Limitations
 
